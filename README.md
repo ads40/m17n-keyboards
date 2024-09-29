@@ -1,4 +1,4 @@
-# Custom input sources for IBus-m17n
+# Custom input sources for `ibus-m17n`
 
 Classical Greek input source is from:
 
@@ -23,7 +23,7 @@ consistency across input methods when working directly with Roman text.
 
 Make sure that the `ibus-m17n` library is installed.
 
-Copy these `.mim` files to `~/.m17n.d/` (create it if needed) and then log out 
+Copy these `.mim` files to `~/.m17n.d/` (create it if needed) and then log out
 and back in again to restart `ibus`.
 
 Make the input sources active via Settings > Keyboard > "+ Add Input Source".
@@ -32,10 +32,8 @@ Make the input sources active via Settings > Keyboard > "+ Add Input Source".
 
 The `.mim` file appears to be Lisp.
 
-For details:
+For details of the format and features:
 
 - https://www.nongnu.org/m17n/manual-en/index.html
 - https://www.nongnu.org/m17n/manual-en/m17nDBTutorial.html
-
-
 
