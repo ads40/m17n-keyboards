@@ -12,7 +12,7 @@ Classical Greek input source is from:
 ## Sanskrit
 
 For Sanskrit devanāgarī, just use the built-in sa-itrans.mim input source. There
-are a couple of rough edges (ITRANS has <R> -> ऋ instead of <.r> -> ऋ) but
+are a couple of rough edges (ITRANS has `<R>` -> ऋ instead of `<.r>` -> ऋ) but
 these are minor.
 
 Sanskrit transliteration input source has been built from tutorials:
