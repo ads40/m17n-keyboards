@@ -1,12 +1,19 @@
 # Custom input sources for `ibus-m17n`
 
+These are the custom input sources that I use on Linux to assist with ease of
+typing Latin, Classical Greek and Sanskrit (devanāgarī and transliteration).
+
+## Classical Greek
+
 Classical Greek input source is from:
 
 - https://github.com/marczuo/grc-beta-code/blob/master/grc-beta-code.mim
 
+## Sanskrit
+
 For Sanskrit devanāgarī, just use the built-in sa-itrans.mim input source. There
 are a couple of rough edges (ITRANS has <R> -> ऋ instead of <.r> -> ऋ) but
-these are minor
+these are minor.
 
 Sanskrit transliteration input source has been built from tutorials:
 
@@ -16,10 +23,12 @@ Sanskrit transliteration input source has been built from tutorials:
 The second set of instructions are important to avoid playing with system-level
 files but instead just adding per user features.
 
+## Latin (with macrons)
+
 Latin input source is based on the Sanskrit transliteration input source, for
 consistency across input methods when working directly with Roman text.
 
-## Installing
+# Installing
 
 Make sure that the `ibus-m17n` library is installed.
 
